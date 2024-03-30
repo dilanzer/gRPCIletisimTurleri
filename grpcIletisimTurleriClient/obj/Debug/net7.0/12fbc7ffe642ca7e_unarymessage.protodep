@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/Unarymessage.cs \
+obj\Debug\net7.0\Protos/UnarymessageGrpc.cs: Protos/unarymessage.proto

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpcUnaryIletisimClient";
+
+package unarymessage;
+
+service UnaryMessage {
+  
+  rpc SendUnaryMessage (UnaryMessageRequest) returns (UnaryMessageResponse);
+}
+
+message UnaryMessageRequest {
+  string name = 1;
+  string message = 2;
+}
+
+message UnaryMessageResponse {
+  string message = 1;
+}

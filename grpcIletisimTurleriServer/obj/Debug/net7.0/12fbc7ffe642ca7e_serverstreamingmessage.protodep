@@ -1,0 +1,2 @@
+obj\Debug\net7.0\Protos/Serverstreamingmessage.cs \
+obj\Debug\net7.0\Protos/ServerstreamingmessageGrpc.cs: Protos/serverstreamingmessage.proto

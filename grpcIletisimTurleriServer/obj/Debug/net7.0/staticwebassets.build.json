@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5o3uQmmcoA5BGhggb2wH3b/PeY3uM1lVgQ/DICyenfA=",
+  "Source": "grpcIletisimTurleriServer",
+  "BasePath": "_content/grpcIletisimTurleriServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

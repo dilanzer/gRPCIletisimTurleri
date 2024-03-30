@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpcServerStreamingIletisimClient";
+
+package serverstreamingmessage;
+
+service ServerStreamingMessage {
+  
+  rpc SendServerStreamingMessage (ServerStreamingMessageRequest) returns (stream ServerStreamingMessageResponse);
+}
+
+message ServerStreamingMessageRequest {
+  string name = 1;
+  string message = 2;
+}
+
+message ServerStreamingMessageResponse {
+  string message = 1;
+}
